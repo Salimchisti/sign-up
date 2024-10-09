@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="number" id="mobile" name="mobile" placeholder="1234567890" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" placeholder="abc@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+
+            <div class="form-group">
+                <label>Are you eligible?</label>
+                <input type="radio" name="eligible" value="Yes" required> Yes
+                <input type="radio" name="eligible" value="No"> No
+            </div>
+
+            <div class="form-group">
+                <label for="pincode">Pin Code:</label>
+                <input type="text" id="pincode" name="pincode" placeholder="123456" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
+            </div>
+
+            <div class="form-actions">      
+                <button type="submit">Submit Now</button>
+                <button type="reset">Reset Now</button>
+            </div>
+        </form>
+        <p>NOTE: To learn HTML / CSS / JavaScript visit the website. <a
+                href="https://www.w3schools.com">W3Schools.com</a></p>
+    </div>
+</body>
+
+</html>

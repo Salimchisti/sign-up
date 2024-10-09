@@ -1,0 +1,127 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items from the top */
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add space at the top */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin for better spacing */
+    color: #333333;
+    font-size: 22px; /* Reduce the font size */
+    font-weight: 600;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px; /* Reduced spacing */
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px; /* Reduced spacing */
+    color: #555555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px; /* Reduced font size */
+    color: #333333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus and Hover Effects */
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #ffffff;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* Form Actions (Submit and Reset buttons) */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Reduced margin */
+}
+
+button {
+    padding: 10px 15px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+button[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+/* Additional Styles */
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px; /* Reduced font size */
+    color: #777777;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
